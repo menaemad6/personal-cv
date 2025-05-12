@@ -33,7 +33,7 @@ const Skills = () => {
     },
     {
       title: "Authentication & Security",
-      skills: ["Clerk Authentication", "Role-based access control", "Data encryption", "Input validation"]
+      skills: ["Clerk Authentication", "Role-based access control", "Input validation"]
     },
     {
       title: "UI/UX",
@@ -41,15 +41,15 @@ const Skills = () => {
     },
     {
       title: "Tools & Deployment",
-      skills: ["Git", "Netlify", "PythonAnywhere", "Vite", "npm", "CodeSandbox"]
+      skills: ["Git", "Netlify", "PythonAnywhere", "Vercel", "Vite", "npm", "CodeSandbox"]
     },
     {
       title: "Database",
-      skills: ["Supabase DB", "SQLite", "Database optimization", "Connection pooling"]
+      skills: ["Supabase DB", "SQLite", "Real-time capabilities", "Database optimization"]
     },
     {
       title: "Additional Skills",
-      skills: ["Multilingual development", "PDF generation", "Data visualization", "Form validation", "Google Maps API", "AI Integration"]
+      skills: ["Multilingual development", "AI Integration", "PDF generation", "Data visualization", "Form validation", "Google Maps API"]
     },
     {
       title: "Languages",
