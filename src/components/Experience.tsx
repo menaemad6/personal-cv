@@ -25,57 +25,39 @@ const Experience = () => {
       title: "Full Stack Developer",
       company: "Hootdi Online Store",
       achievements: [
-        "Developed a modern e-commerce platform with React, TypeScript, and Supabase",
-        "Implemented secure user authentication and role-based access control",
-        "Created responsive product catalog with filtering and search capabilities",
-        "Built comprehensive admin dashboard for inventory and order management",
-        "Integrated secure payment processing and delivery slot scheduling system"
+        "Built a full-stack e-commerce platform with React & Supabase, role-based authentication, and a real-time admin dashboard for managing fashion products."
       ]
     },
     {
-      title: "Lead Developer",
+      title: "Full Stack Developer",
       company: "Es3af",
       achievements: [
-        "Engineered an AI-powered medical assistant using React, TypeScript, and Google Gemini API",
-        "Implemented multi-language support (English/Arabic) with structured medical explanations",
-        "Developed secure authentication via Clerk and chat management functionality",
-        "Created interactive chat interface with image upload capability",
-        "Built PDF export functionality for medical conversations"
+        "Developed an AI-powered bilingual medical assistant using React, Supabase, Gemini API, and Clerk Auth to deliver conversational medical insights to students."
       ]
     },
     {
-      title: "Web Developer",
-      company: "Wang Team Website",
+      title: "Backend Developer",
+      company: "Educational Platform",
       achievements: [
-        "Designed and developed a responsive single-page website showcasing water desalination project",
-        "Created interactive image gallery highlighting project development process",
-        "Implemented smooth animations and transitions using WOW.js and Animate CSS",
-        "Built team member profiles with social media integration",
-        "Optimized mobile-friendly navigation with hamburger menu"
+        "Engineered Edu-Plat, a full-featured multilingual LMS with role-based dashboards, content delivery, quizzes, payments, and QR-based login."
       ]
     },
     {
-      title: "Web Developer",
+      title: "Backend Developer",
       company: "Ektashef",
       achievements: [
-        "Built comprehensive tourist guide platform using Django and Python",
-        "Implemented user authentication system and profile management",
-        "Created interactive site browsing with search capabilities",
-        "Integrated map functionality for location visualization",
-        "Developed bilingual support (Arabic/English) and responsive design"
+        "Developed Ektashef, a Django-based bilingual tourism guide for Egypt with user auth, interactive maps, search, and admin content control."
       ]
     },
     {
-      title: "Portfolio Developer",
-      company: "Bero Joseph Photography",
+      title: "Frontend Developer",
+      company: "Wang Team Website",
       achievements: [
-        "Designed professional photography portfolio with responsive single-page layout",
-        "Implemented dynamic hero slider showcase with animations",
-        "Created portfolio gallery with image previews using Magnific Popup",
-        "Built animated counters for statistics and achievements",
-        "Integrated contact form for client inquiries and social media integration"
+        "Designed Wang Team Website, a project portfolio site for a water desalination solution using HTML, Bootstrap, and animation libraries for a polished UI."
       ]
-    }
+    },
+
+
   ];
 
   return (

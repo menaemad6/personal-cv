@@ -26,15 +26,15 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Frontend Development",
-      skills: ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "TailwindCSS", "Bootstrap", "Shadcn UI", "Framer Motion", "React Router", "React Query", "React Hook Form"]
+      skills: ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "TailwindCSS", "Bootstrap", "Shadcn UI", "Framer Motion", "Redux", "React Router", "React Query", "React Hook Form"]
     },
     {
       title: "Backend Development",
-      skills: ["Python", "Django", "Supabase", "SQLite", "RESTful API"]
+      skills: ["Supabase", "Python", "Django", "RESTful APIs"]
     },
     {
       title: "Authentication & Security",
-      skills: ["Clerk Authentication", "Role-based access control", "Secure payment processing", "Data encryption", "Input validation"]
+      skills: ["Clerk Authentication", "Role-based access control", "Data encryption", "Input validation"]
     },
     {
       title: "UI/UX",
@@ -46,18 +46,23 @@ const Skills = () => {
     },
     {
       title: "Database",
-      skills: ["SQL", "Supabase", "Database optimization", "Connection pooling"]
+      skills: ["Supabase DB", "SQLite", "Database optimization", "Connection pooling"]
     },
     {
       title: "Additional Skills",
       skills: ["Multilingual development", "PDF generation", "Data visualization", "Form validation", "Google Maps API", "AI Integration"]
+    },
+    {
+      title: "Languages",
+      skills: ["Arabic - Native", "English - C1" , "German - A2"]
     }
   ];
 
   return (
     <section className="py-6 bg-muted">
       <div className="container mx-auto">
-        <h2 className="text-2xl font-bold mb-6 text-primary border-b pb-2">Technical Skills</h2>
+        {/* <h2 className="text-2xl font-bold mb-6 text-primary border-b pb-2">Technical Skills</h2> */}
+        <h2 className="text-2xl font-bold mb-6 text-primary border-b pb-2">Skills</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {skillCategories.map((category, index) => (
             <SkillCategory 
