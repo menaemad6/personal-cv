@@ -1,12 +1,26 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import Header from "@/components/Header";
+import Summary from "@/components/Summary";
+import Experience from "@/components/Experience";
+import Skills from "@/components/Skills";
+import Education from "@/components/Education";
+import Footer from "@/components/Footer";
+import PrintButton from "@/components/PrintButton";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-background">
+      <div className="cv-container max-w-[1100px] mx-auto bg-white shadow-lg print:shadow-none">
+        <Header />
+        <div className="p-6 md:p-8">
+          <Summary />
+          <Experience />
+          <Skills />
+          <Education />
+        </div>
       </div>
+      <Footer />
+      <PrintButton />
     </div>
   );
 };
