@@ -1,73 +1,119 @@
-# Welcome to your Lovable project
+<div align="center">
+  <h1>Resume Forge</h1>
+  <p>A modern, responsive digital resume built with React, TypeScript, and shadcn/ui</p>
+  
+  <p>
+    <a href="#features">Features</a> •
+    <a href="#tech-stack">Tech Stack</a> •
+    <a href="#getting-started">Getting Started</a> •
+    <a href="#deployment">Deployment</a> •
+    <a href="#customization">Customization</a>
+  </p>
+</div>
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/2aa54a38-7709-4dfe-bf4c-eb6a270c4f5a
+## ✨ Features
 
-## How can I edit this code?
+- **Professional Layout**: Clean and modern resume design optimized for both digital viewing and printing
+- **Responsive Design**: Perfect display across all device sizes from mobile to desktop
+- **Print-Friendly**: One-click printing functionality for easy PDF conversion
+- **Component-Based Structure**: Easily customizable sections for experience, skills, education, and more
+- **Modern UI**: Built with shadcn/ui components for a sleek, professional appearance
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+<p align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/shadcn_ui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
+</p>
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2aa54a38-7709-4dfe-bf4c-eb6a270c4f5a) and start prompting.
+- **Framework**: React 18 with TypeScript
+- **Styling**: Tailwind CSS with shadcn/ui components
+- **Build Tool**: Vite for lightning-fast development
+- **Routing**: React Router for navigation
+- **State Management**: React Query for API data fetching
+- **Form Handling**: React Hook Form with Zod validation
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js (v16 or higher)
+- npm or yarn package manager
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+```bash
+# Clone the repository
+git clone <repository-url>
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Navigate to the project directory
+cd nasef-resume-forge
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
+# or
+yarn install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
+# or
+yarn dev
 ```
 
-**Edit a file directly in GitHub**
+Visit `http://localhost:5173` to see your resume in action!
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📋 Project Structure
 
-**Use GitHub Codespaces**
+```
+src/
+├── components/     # UI components (Header, Experience, Skills, etc.)
+├── pages/          # Page components
+├── lib/            # Utility functions and helpers
+├── hooks/          # Custom React hooks
+└── App.tsx         # Main application component
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🌐 Deployment
 
-## What technologies are used for this project?
+You can deploy this resume to various platforms:
 
-This project is built with:
+- **Vercel**: Connect your Git repository for automatic deployments
+- **Netlify**: Deploy directly from your Git repository
+- **GitHub Pages**: Use GitHub Actions for continuous deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🎨 Customization
 
-## How can I deploy this project?
+### Personal Information
 
-Simply open [Lovable](https://lovable.dev/projects/2aa54a38-7709-4dfe-bf4c-eb6a270c4f5a) and click on Share -> Publish.
+Edit `src/components/Header.tsx` to update your name, title, and contact information.
 
-## Can I connect a custom domain to my Lovable project?
+### Content Sections
 
-Yes, you can!
+Modify or add sections by editing the relevant component files:
+- `src/components/Summary.tsx`
+- `src/components/Experience.tsx`
+- `src/components/Skills.tsx`
+- `src/components/Education.tsx`
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Styling
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Customize colors and styling by editing:
+- `tailwind.config.ts` for theme customization
+- `src/index.css` for global styles
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+## 💼 Author
+
+Created by Mena Emad Nasef - [Portfolio](https://mina-emad.com) | [GitHub](https://github.com/menaemad6)
+
+---
+
+<p align="center">Made with ❤️ using React and TypeScript</p>
