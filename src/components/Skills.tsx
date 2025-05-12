@@ -1,4 +1,3 @@
-
 interface SkillCategoryProps {
   title: string;
   skills: string[];
@@ -6,13 +5,13 @@ interface SkillCategoryProps {
 
 const SkillCategory = ({ title, skills }: SkillCategoryProps) => {
   return (
-    <div className="mb-4">
-      <h3 className="text-lg font-bold mb-2">{title}</h3>
+    <div className="mb-5">
+      <h3 className="text-lg font-bold mb-3">{title}</h3>
       <div className="flex flex-wrap gap-2">
         {skills.map((skill, index) => (
           <span 
             key={index} 
-            className="bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-sm"
+            className="bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-sm whitespace-nowrap"
           >
             {skill}
           </span>
@@ -54,16 +53,16 @@ const Skills = () => {
     },
     {
       title: "Languages",
-      skills: ["Arabic - Native", "English - C1" , "German - A2"]
+      skills: ["Arabic - Native", "English - C1", "German - A2"]
     }
   ];
 
   return (
     <section className="py-6 bg-muted">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         {/* <h2 className="text-2xl font-bold mb-6 text-primary border-b pb-2">Technical Skills</h2> */}
         <h2 className="text-2xl font-bold mb-6 text-primary border-b pb-2">Skills</h2>
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
           {skillCategories.map((category, index) => (
             <SkillCategory 
               key={index} 
